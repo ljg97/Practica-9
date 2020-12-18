@@ -1,0 +1,73 @@
+div.ing{
+    font-family: sans-serif;
+}
+h4.lb{
+    margin-bottom: -2px;
+}
+input.rc{
+    margin-top: 20px;
+}
+input.ent{
+    margin-top: 20px;
+    background-color: orange;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+div.f2{
+    font-family: sans-serif;
+}
+input.na{ 
+    height: 40px;
+    width: 432px;
+    margin-bottom: 15px;
+}
+input.n{
+    height: 40px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+select.n{
+    height: 40px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 27px;
+}
+h1.f3h1{
+    padding-left: 100px;
+}
+section.f3{
+    margin-left: -1200px;
+    margin-bottom: 50px;
+}
+p.f3r{
+    text-align: center;
+}
+p.f3p{
+    margin-left: 25px;
+    margin-bottom: -2px;
+}
+input.f3in{
+    margin-left: 25px;
+    height: 35px;
+    width: 300px;    
+}
+input.f3pv{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+input.f3cc{
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+input.cc{
+    margin-left: 25px;
+    background-color: lawngreen;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

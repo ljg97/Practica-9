@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ing">
+    <h2> Accede a tu Área Clientes</h2>
+
+    <h4 class="lb">Elige tu documento</h4>
+    <input type="radio" name="dc" value="d" id="dni">
+    <label for="d"> DNI o Tarjeta de residencia</label>
+    <br>
+    <input type="radio" name="dc" value="p" id="pasa">
+    <label for="p">Pasaporte</label>
+
+    <h4 class="lb">Número de documento</h4>
+    <input type="text" placeholder="Número de documento">
+    <h4 class="lb">Fecha de nacimiento</h4>
+    <input type="date" placeholder="DD/MM/AAAA">
+
+    <br>
+
+    <input type="checkbox" name="recordar" class="rc">Recordar
+
+    <br>
+
+    <input type="submit" value="Entrar" class="ent">
+
+    <br>
+
+    <p>Acceder con DNI electrónico</p>
+    <p>Más información sobre seguridad</p>
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="f2">
+        <h1>Empieza creando tu usuario</h1>
+        <input type="text" placeholder="Nombre (como sale en el DNI)" class="na">
+        <br>
+        <input type="text" placeholder="1º apellido (como sale en el DNI)" class="n">
+        <input type="text" placeholder="2º apellido (como sale en el DNI)" class="n">
+        <br>
+        <select name="menu" class="n" >
+            <option value="0">DNI/NIF/CERT.AEAT</option>
+            <option value="1">DNI</option>
+            <option value="2">NIF</option>
+            <option value="3">CERT.AEAT</option>
+        </select>
+        <input type="text" placeholder="Número de documento" class="n">
+        <br>
+        <input type="text" placeholder="Móvil" class="n">
+        <input type="text" placeholder="Email" class="n">
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="f3">
+        <h1 class="f3h1">¿Eres nuevo?</h1>
+        <section class="f3">
+            <p class="f3r">Regístrate para guardar tu información y hacer <br> 
+                tus pedidos de forma más fácil y rápida.</p></section>
+
+        <p class="f3p">Email</p>
+        <input type="text" placeholder="Introduce tu email" class="f3in">
+        <p class="f3p">Teléfono</p>
+        <input type="text" placeholder="Tu teléfono" class="f3in">
+        <p class="f3p">Contraseña</p>
+        <input type="password" name="pass" id="pass" placeholder="Introduce tu contraseña" class="f3in">
+        <p class="f3p">Confirma tu Contraseña</p>
+        <input type="password" name="pass" id="pass" placeholder="Confirma tu contraseña" class="f3in">
+
+        <br>
+        
+        <input type="checkbox" name="f3pv" class="f3pv" id="f3pv">
+        <label for="f3pv">He leído y acepto <span class="pv">Política de privacidad</span></label>
+
+        <br>
+
+        <input type="checkbox" name="f3cc" class="f3cc" id="f3cc">
+        <label for="f3cc">Si, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.</label>
+
+        <br>
+
+        <input type="submit" value="Crea tu cuenta" class="cc">
+    </div>
+</body>
+
+</html>
